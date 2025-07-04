@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <title>Preuve d'Achat - FollyTown</title>
+</head>
+<body>
+  <h1>Envoyer une preuve d'achat</h1>
+  <form action="send-proof.php" method="post">
+    <label for="pseudo">Pseudo Minecraft :</label><br />
+    <input type="text" id="pseudo" name="pseudo" required /><br /><br />
+
+    <label for="message">Preuve d'achat (texte ou lien) :</label><br />
+    <textarea id="message" name="message" rows="5" required></textarea><br /><br />
+
+    <button type="submit">Envoyer</button>
+  </form>
+</body>
+</html>
